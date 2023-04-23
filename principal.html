@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="logoto.webp" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="styles.css">
+  <title>Escandaloso </title>
+</head>
+<style>
+  .container-fluid {
+    max-width: 80%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    overflow-x: hidden;
+  }
+
+  .card {
+    box-shadow: 0px 0px 10px rgba(183, 87, 87, 0.3);
+
+  }
+
+  .card-title {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .card-text {
+    font-size: 18px;
+    text-align: justify;
+  }
+
+  .carousel-inner .carousel-item img {
+    height: 550px !important;
+    width: 100%;
+    object-fit: fill;
+    object-position: center;
+  }
+
+  img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  #titulo{
+  text-align: center !important;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.Intro{
+  font-size:20px;
+}
+
+  iframe {
+    width: 100%;
+    height: 30vh;
+    border-radius: 25px;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .social {
+    color: #fff;
+    /* Color del texto */
+  }
+
+  .social i {
+    color: #ff0000;
+    /* Color de fondo de los iconos */
+  }
+
+  #footer a {
+    color: white;
+  }
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    .container-fluid {
+      max-width: 100%;
+      overflow-x: hidden;
+      margin: 2px;
+    }
+
+    .carousel-inner .carousel-item img {
+      height: 200px !important;
+      width: 100%;
+      object-fit: fill;
+      object-position: center;
+    }
+
+    h1 {
+      font-size: 25px;
+    }
+    .Intro{
+  font-size:18px;
+}
+
+    .card {
+      margin: 2px;
+      width: 100%;
+
+    }
+
+    .card-body {
+      width: 100%;
+    }
+
+    .card-title {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .card-text {
+    font-size: 18px;
+    text-align: justify;
+  }
+
+
+    iframe {
+      width: 100%;
+      height: 30vh;
+      border-radius: 15px;
+    }
+
+    img {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    #footer a {
+      color: white;
+    }
+  }
+</style>
+
+<body>
+  <!--Main Container-->
+  <div class="container-fluid">
+    <!--Header-->
+    <header>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Escandalosos</a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="principal.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Sobre_mi.html">Sobre Mi</a>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--Fin header-->
+    <!--Main- CARROUSEL-->
+    <main id="main">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block rounded" src="img/escandalosos1.webp" alt="Los 3 osos juntos">
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block rounded" src="img/escandalosos2.webp" alt="Los 3 osos juntos">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block rounded" src="img/escandalosos3.png" alt="Los 3 osos juntos">
+          </div>  
+        </div>
+      </div>
+    </main>
+    <br>
+    <!--Fin Main-->
+    <div class="mt-2 m-1 text-dark rounded text-center p-1">
+      <h1>Escandalosos</h1>
+      <p class="Intro"> Es una serie animada que actualmente se muestra en Cartoon Network y que fue creada por Daniel Chong. La serie trata de tres osos hermanos: Pardo, Panda y Polar. Durante sus intentos de integración con la sociedad humana, ya sea comprando comida, haciendo amigos humanos o convirtiéndose en celebridades de Internet, Los Osos tienen dificultades para asimilar la civilizada naturaleza de los humanos. Sin embargo, pronto se dan cuenta de que se tienen los unos a los otros para apoyarse.
+      </p>
+
+      <p class="Intro"> Se conocieron por primera vez en las vías de un tren cuando solo eran unos oseznos (Como se muestra en un flashback en Escandalosos: La Película). Luego de lograr desatorar a Panda y escapar de un tren formando la Torre de Osos y prometen que serán hermanos para siempre. </p>
+      <p class="Intro">
+        Ellos han estado juntos para obtener un hogar. Mientras tanto, como se vio en El Camino, ellos llamaron a una Caja su hogar, la cual tenía por afuera escrito: Osos Gratis (Free Bears en Estados Unidos). En el mismo episodio, ellos perdieron su caja, así que llegaron a una fábrica de cajas, para así obtener otra, finalmente en el episodio, una persona pide un envío, y ellos se meten en la caja, y fue así como llegaron a la Bahía de San Francisco, California.
+      </p>
+      <p class="Intro">
+        En Tienda de Mascotas, ellos trataban ser adoptados, pero no podían puesto que las personas preferían los cachorros o gatos y ellos se sintieron muy tristes, así que cuando fueron a hacer un anuncio publicitario, ellos buscaban participar, sin embargo, eligieron a perros y gatos, entonces, Pardo se le ocurrió la idea de intercambiar a los perros y gatos por ellos, y fue así como aparecieron en el aviso publicitario, sin embargo, la gente solo iba a adoptar otros animales y no a ellos, finalmente, el propietario de la tienda los echó, pero luego fue gente que quería adoptarlos pero no los encontraron y se fueron, luego los osos estaban caminando y así fue como toda la gente los vio y los adoptaron, todos los osos se fueron por separados, estaban felices, sin embargo, no podían estar tanto tiempo separados, así que decidieron dejar a sus dueños y reencontrarse, finalmente, ellos caminan sin rumbo, Panda propone ir a Japón si es que era posible y Pardo dice que tal vez.
+      </p>
+    <!--Galeria Grupo Card #1- 1Ero-->
+    <h3 class="mb-3 pb-3 text-center">Personajes principales de Escandalosos</h3>
+    <div class="card-group">
+      <div class="card m-1 p-2">
+        <img class="card-img-top" src="https://i.pinimg.com/originals/66/8e/4c/668e4cba2637872d2b48464073af0472.gif"p
+          alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Polar</h5>
+          <p class="card-text">Polar  es uno de los 3 protagonistas principales de Escandalosos y es el más joven del trío, pero es sin duda el más fuerte y en algunos aspectos es el más maduro de ellos. Pudo rescatar a sus hermanos mayores de una muerte segura sin demasiados problemas y se apresura a entrar en acción si encuentra que surge una amenaza.</p>
+        </div>
+      </div>
+
+      <div class="card m-1 p-2">
+        <img class="card-img-top" src="https://i.pinimg.com/originals/5a/4c/57/5a4c57ce67502a890d1431564895c930.gif" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Panda</h5>
+          <p class="card-text">Panda  es uno de los 3 protagonistas principales de Escandalosos. Panda parece tener más conocimiento sobre cosas relacionadas con la tecnología y cosas de la cultura asiática. Él es el hermano del medio y, como dijo Pardo, es el vínculo que los mantiene unidos. Parece ser el más delicado del trío, estando ansioso y lindo.</p>
+        </div>
+      </div>
+
+      <div class="card m-1 p-2">
+        <img class="card-img-top" src="https://i.pinimg.com/originals/5b/ec/eb/5becebb68b7746de143da55935330097.gif"
+          alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Pardo</h5>
+          <p class="card-text">Pardo es el principal protagonista de Escandalosos. Al ser un oso pardo, está familiarizado con el área forestal en la que viven Los Osos. Es el líder de los tres y es visto como tal. Hace todo lo posible para hacer lo correcto tanto para el beneficio de su familia como para él mismo, pero a veces puede dejarse llevar. Al crecer sin padres o tutores, al igual que sus hermanos adoptivos, creció tratando de ser un hermano mayor modelo, aunque no era muy bueno en eso. </p>
+        </div>
+      </div>
+   <!--Galeria Grupo Card #2 -->
+      <div class="card-group">
+        <div class="card m-1 p-2">
+          <img class="card-img-top" src="https://media.tenor.com/LeSw4LJc3DgAAAAd/smile-charlie.gif"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Charlie</h5>
+            <p class="card-text">Charles, más conocido como Charlie, es un Pie Grande que es un personaje recurrente en Escandalosos. Es interpretado por el actor y comediante Jason Lee.</p>
+          </div>
+        </div>
+        <div class="card m-1 p-2">
+          <img class="card-img-top"
+            src="https://media.tenor.com/rFJws93t0rsAAAAC/confused-chloe-park.gif"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Chloe Park </h5>
+            <p class="card-text"> Chloe Park es una personaje auxiliar en Escandalosos. Ella es una chica coreana que, en su aparición inicial, se coló en La Cueva de Los Osos para recopilar información para su informe universitario antes de finalmente hacerse amiga de ellos. Chloe se saltó la secundaria para ir a la universidad, ya que es una niña prodigio y actualmente está estudiando en la Universidad de California. Actualmente reside en San Francisco.</p>
+          </div>
+        </div>
+        <div class="card m-1 p-2">
+          <img class="card-img-top" src="https://media.tenor.com/05fe9zvDYGQAAAAC/nom-nom-we-bare-bears.gif"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Nom Nom</h5>
+            <p class="card-text">ENom Nom es un personaje recurrente y el principal antagonista durante las dos primeras temporadas; sin embargo, comenzó una redención lenta pero firme durante la Tercera Temporada, acercándose mucho más a Pardo y ya no actuando como un verdadero antagonista. Es un koala antropomórfico multimillonario que adquirió fama en Internet a través de una serie de vídeos populares en Internet.</p>
+          </div>
+        </div>
+          <h3 id="titulo" class="text-center">🐼Ver todas las Temporadas🐼</h3>
+          <hr>
+          <!-- Boton Ver Serie-->
+
+          <div class="w-100 ">
+
+            <!-- Boton Ver Serie-->
+            <div class="text-center center-block">
+
+              <a href="https://play.hbomax.com/page/urn:hbo:page:GXji44gbd1I7CZgEAAAjR:type:series" target="_blank"
+                class="btn btn-danger btn-lg btn-block" tabindex="-1" role="button" aria-disabled="true">😁Ver en HBO Max la temporada 1</a>
+
+            </div>
+            <br>
+            <div class="text-center center-block">
+
+              <a href="https://play.hbomax.com/page/urn:hbo:page:GXji44gbd1I7CZgEAAAjR:type:series"
+                target="_blank" class="btn btn-danger btn-lg btn-block" tabindex="-1" role="button"
+                aria-disabled="true">😁Ver en HBO Max la temporada 2</a>
+
+            </div>
+            <br>
+            <div class="text-center center-block">
+
+              <a href="https://play.hbomax.com/page/urn:hbo:page:GXji44gbd1I7CZgEAAAjR:type:series" target="_blank"
+                class="btn btn-danger btn-lg btn-block" tabindex="-1" role="button" aria-disabled="true">😁Ver en HBO Max la temporada 3</a>
+            </div>
+            <br>
+            <div class="text-center center-block">
+
+              <a href="https://play.hbomax.com/page/urn:hbo:page:GXji44gbd1I7CZgEAAAjR:type:series" target="_blank"
+                class="btn btn-danger btn-lg btn-block" tabindex="-1" role="button" aria-disabled="true">😁Ver en HBO Max la temporada 4</a>
+            </div>
+            <br>
+            <div class="text-center center-block">
+
+              <a href="https://play.hbomax.com/page/urn:hbo:page:GX_PTlgwwZLa8wwEAAAAm:type:feature" target="_blank"
+                class="btn btn-danger btn-lg btn-block" tabindex="-1" role="button" aria-disabled="true">😁Ver en HBO Max la pelicula</a>
+            </div>
+            <!--Fin Boton Ver Serie-->
+
+
+            <!--Redes Sociales-->
+            <br>
+            <h3 class="text-center">Mis Redes Sociales</h3>
+            <hr />
+            <div class="text-center center-block">
+              <div class="social">
+                <a href="https://www.linkedin.com/in/luislopezsoy/" target="_blank"><i
+                    class="fa fa-linkedin-square fa-3x social"></i></a>
+                <a href="https://github.com/cakri99" target="_blank"><i
+                    class="fa fa-github-square fa-3x social"></i></a>
+              </div>
+
+            </div>
+            <hr />
+            <h4 class="text-center">Estudiante de ing. en sistemas Luis Lopez<small>&copy; 2023. Todos los derechos reservados.</small></h4>
+            <!--Fin Redes Sociales-->
+
+            <!--Footer-->
+            <footer id="footer" class="pb-4 pt-4 bg-danger">
+              <div class="container">
+                <div class="row text-center">
+                  <div class=" col-12 col-lg">
+                    <a href="index.html">Home</a>
+                  </div>
+                  <div class="col-12 col-lg">
+                    <a href="sobremi.html">Sobre Mi</a>
+                  </div>
+
+                  <div class="col-12 col-lg">
+                    <a href="#">Contactos</a>
+                  </div>
+
+                </div>
+              </div>
+            </footer>
+            <!--Fin footer-->
+
+          </div>
+
+          <!--Main Container-->
+
+
+        </div>
+
+        <!-- Optional JavaScript -->
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+          crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+          integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+          crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+          integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+          crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js "
+          integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc "
+          crossorigin="anonymous "></script>
+
+
+</body>
+
+</html>
